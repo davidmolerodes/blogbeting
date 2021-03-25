@@ -1,1 +1,3 @@
-web: java $JAVA_OPTS -jar target/*.jar $JAR_OPTS
+web: java -jar target/spring-skeleton-1.0-SNAPSHOT.jar $PORT
+
+
