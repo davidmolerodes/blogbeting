@@ -125,9 +125,9 @@ public class MainView extends VerticalLayout {
         casa.setItems("Bet365", "MBet");
         resultado.setLabel("W/L/V");
         resultado.setItems("W", "L", "V");
-        DatePicker fecha = new DatePicker();
-        LocalDate now = LocalDate.now();
-        fecha.setValue(now);
+        //DatePicker fecha = new DatePicker();
+        //LocalDate now = LocalDate.now();
+        //fecha.setValue(now);
         button = new Button("AÑADIR");
         button.setThemeName("primary");
         button.setWidth("150px");
@@ -142,7 +142,7 @@ public class MainView extends VerticalLayout {
         layout1.setPadding(false);
         layout1.setMargin(false);
 
-        b.add(stake, cuota, fecha);
+        b.add(stake, cuota);
         layout.add(descripcion,b);
         layout1.add(tipster, deporte, casa);
         layout2.add(casa, resultado);
