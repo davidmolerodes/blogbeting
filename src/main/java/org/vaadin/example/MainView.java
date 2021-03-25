@@ -69,7 +69,7 @@ public class MainView extends VerticalLayout {
         HorizontalLayout layout2 = new HorizontalLayout();
 
         String json = "";
-        FileReader fl = new FileReader(ClassLoader.getSystemResource("Diary.json").getPath());
+        FileReader fl = new FileReader("Diary.json");
         BufferedReader br = new BufferedReader(fl);
         String linea;
         while ((linea = br.readLine()) != null) {
