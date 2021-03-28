@@ -121,7 +121,7 @@ public class MainView extends VerticalLayout {
         deporte.setLabel("Deporte");
         deporte.setItems("Tenis", "Fútbol", "Futsal", "Baloncesto");
         casa.setLabel("Casa");
-        casa.setItems("Bet365", "MBet");
+        casa.setItems("Bet365", "MBet", "Bwin");
         resultado.setLabel("W/L/V");
         resultado.setItems("W", "L", "V");
         //DatePicker fecha = new DatePicker();
