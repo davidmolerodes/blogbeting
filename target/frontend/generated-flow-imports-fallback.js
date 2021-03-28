@@ -1,6 +1,7 @@
 import '@polymer/iron-icon/iron-icon.js';
 import '@polymer/iron-list/iron-list.js';
 import '@vaadin/flow-frontend/comboBoxConnector-es6.js';
+import '@vaadin/flow-frontend/datepickerConnector.js';
 import '@vaadin/flow-frontend/gridProConnector.js';
 import '@vaadin/flow-frontend/ironListConnector-es6.js';
 import '@vaadin/flow-frontend/ironListStyles.js';
@@ -19,6 +20,7 @@ import '@vaadin/vaadin-cookie-consent/theme/lumo/vaadin-cookie-consent.js';
 import '@vaadin/vaadin-crud/src/vaadin-crud-edit-column.js';
 import '@vaadin/vaadin-crud/theme/lumo/vaadin-crud.js';
 import '@vaadin/vaadin-custom-field/theme/lumo/vaadin-custom-field.js';
+import '@vaadin/vaadin-date-picker/theme/lumo/vaadin-date-picker.js';
 import '@vaadin/vaadin-date-time-picker/theme/lumo/vaadin-date-time-picker.js';
 import '@vaadin/vaadin-details/theme/lumo/vaadin-details.js';
 import '@vaadin/vaadin-dialog/theme/lumo/vaadin-dialog.js';
