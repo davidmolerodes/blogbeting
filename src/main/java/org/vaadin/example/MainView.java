@@ -93,7 +93,6 @@ public class MainView extends VerticalLayout {
         bank.setMin(1);
         bank.setMax(10000);
 
-
         Button but = new Button("GUARDAR");
         but.setThemeName("primary");
         but.setWidth("150px");
